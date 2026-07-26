@@ -25,7 +25,7 @@ function buildNav() {
   const links = [
     { href:'/',          label:'Home',    active: isRoot    },
     { href:'/blog/',     label:'Blog',    active: isBlog    },
-    { href:'/contact.html', label:'Contact', active: isContact }
+    { href:'/index.html', label:'Contact', active: isContact }
   ];
 
   const navHtml = `
